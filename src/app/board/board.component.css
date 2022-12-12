@@ -1,0 +1,27 @@
+.container {
+  background: black;
+  display: inline-block;
+  border: 5px solid black;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
+  grid-gap: 3px;
+}
+/* .gridReverse{
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    direction: rtl;
+    grid-gap: 3px;
+} */
+.cell {
+   /* center the cell content */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial;
+  font-size: 1rem;
+  background: white;
+}

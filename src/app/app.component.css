@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+}
+.p1Container {
+    text-align: center;
+    padding: 10%;
+}
+.btn{
+    size: 3%;
+}

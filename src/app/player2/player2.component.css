@@ -1,0 +1,9 @@
+.container {
+    color: antiquewhite;
+    display: flex;
+}
+.btn{
+    margin: auto;
+    background-color: blue;
+    border-radius: 5px;
+  }
